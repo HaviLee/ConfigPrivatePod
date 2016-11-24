@@ -89,6 +89,7 @@ sed -i "" "s%__HomePage__%${homePage}%g"      "$specFilePath"
 sed -i "" "s%__HTTPSRepo__%${httpsRepo}%g"    "$specFilePath"
 
 cd ../$projectName
+git init
 git remote add origin $sshRepo  &> /dev/null
 git rm -rf --cached ./Pods/     &> /dev/null
 git rm --cached Podfile.lock    &> /dev/null
