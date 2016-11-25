@@ -9,6 +9,7 @@ target '__ProjectName__' do
   # use_frameworks!
  
   # pod "BLAPIManagers"
+  # pod "BLMediator"
 
   # Private Pods
   pod 'BLLoginPageForDemo'
