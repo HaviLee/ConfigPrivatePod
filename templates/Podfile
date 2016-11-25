@@ -10,4 +10,7 @@ target '__ProjectName__' do
  
   # pod "BLAPIManagers"
 
+  # Private Pods
+  pod 'BLLoginPageForDemo'
+
 end
