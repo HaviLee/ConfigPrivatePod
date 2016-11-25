@@ -1,6 +1,5 @@
 #!/bin/bash
 
-git pull origin master
 
 Cyan='\033[0;36m'
 Default='\033[0;m'
@@ -57,6 +56,8 @@ getInfomation() {
     echo -e "================================================\n"
 }
 
+git pull origin master
+echo -e "\n"
 while [ "$confirmed" != "y" -a "$confirmed" != "Y" ]
 do
     if [ "$confirmed" == "n" -o "$confirmed" == "N" ]; then
