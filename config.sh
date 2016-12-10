@@ -56,7 +56,6 @@ getInfomation() {
     echo -e "================================================\n"
 }
 
-git pull origin master
 echo -e "\n"
 while [ "$confirmed" != "y" -a "$confirmed" != "Y" ]
 do
