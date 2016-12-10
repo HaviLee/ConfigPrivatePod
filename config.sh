@@ -65,7 +65,7 @@ do
     read -p "confirm? (y/n):" confirmed
 done
 
-mkdir -p "../${projectName}/${projectName}"
+mkdir -p "../${projectName}/${projectName}/${projectName}"
 
 licenseFilePath="../${projectName}/FILE_LICENSE"
 gitignoreFilePath="../${projectName}/.gitignore"
